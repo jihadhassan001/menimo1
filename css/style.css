@@ -1,0 +1,120 @@
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400..900;1,400..900&family=Ubuntu+Sans:ital,wght@0,100..800;1,100..800&display=swap');
+font-family: "Playfair Display", serif;
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu+Sans:ital,wght@0,100..800;1,100..800&display=swap');
+font-family: "Ubuntu Sans", sans-serif;
+
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    font-family: "Playfair Display", serif;
+    font-size: 16px;
+    font-weight: 400;
+    color: #626262;
+}
+
+/* header part start */
+header{
+    margin: 0;
+}
+.container{
+    width: 90%;
+    margin: 0 auto;
+    
+    overflow: hidden;
+}
+.logo{
+    width: 16%;
+    float: left;
+    margin-top: 13px;
+}
+.logo a{}
+.logo a img{
+    width: 100%;
+}
+.manue{
+    width: 75%;
+    float: right;
+}
+.manue ul{
+    list-style: none;
+    overflow: hidden;
+    float: right;
+}
+.manue ul li{
+    float: left;
+    margin-left: 55px;
+}
+.manue ul li a{
+    text-decoration: none;
+    text-transform: uppercase;
+    color: #626262;
+}
+.manue ul li a:hover{
+  color: red;
+}
+
+/* header part end */
+/* banner part start */
+.bannsr{
+    
+}
+.banner_img{}
+.banner_img img{
+    width: 100%;
+}
+
+/* banner part end */
+/* worked part start */
+.getaway{
+    padding: 100px 0;
+}
+.container2{
+    width: 80%;
+    margin: 0 auto;
+}
+.g_content{}
+.light{
+    font-family: "Ubuntu Sans", sans-serif;
+    font-size: 14px;
+    font-weight: 300;
+    text-transform: uppercase;
+    color: #b4ad9e;
+}
+.title{
+    margin: 20px 0 30px;
+    font-size: 23px;
+    font-weight: 400;
+}
+.lorem{
+  line-height: 15px;    
+}
+.leave{
+    margin-top: 40px;
+    text-decoration: none;
+}
+/* worked part end */
+/* blog start */
+.blog{
+    padding: 0 0 100px;
+}
+.bl_content{
+    overflow: hidden;
+}
+.bl_items{
+    width: 47%;
+    float: left;
+    box-sizing: border-box;
+}
+.bl_img{
+    margin-bottom: 20px;
+}
+.bl_img img{
+    width: 100%;
+}
+.text{
+    margin: 0;
+}
+.bl_items:nth-child(even){margin-left: 6%;}
+/* blog end */
